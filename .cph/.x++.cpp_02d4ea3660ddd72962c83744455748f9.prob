@@ -1,0 +1,1 @@
+{"name":"Local: x++","url":"c:\\Users\\USER\\Desktop\\Codeforces\\x++.cpp","tests":[{"id":1753636172988,"input":"2\nX++\n--X","output":"0"},{"id":1753637717050,"input":"1\n++X","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\USER\\Desktop\\Codeforces\\x++.cpp","group":"local","local":true}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study & Coding Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="lock-screen">
+    <h2>🔒 Enter Password</h2>
+    <input type="password" id="password-input" placeholder="Password">
+    <button onclick="unlock()">Unlock</button>
+    <p id="error" style="color:red;"></p>
+  </div>
+
+  <div id="app" style="display:none;">
+    <h1>📚 Study & 💻 Coding Tracker</h1>
+    <div class="input-section">
+      <input type="date" id="date" />
+      <input type="number" id="study" placeholder="Study Hours" />
+      <input type="number" id="coding" placeholder="Problems Solved" />
+      <button onclick="addEntry()">Add Entry</button>
+    </div>
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
